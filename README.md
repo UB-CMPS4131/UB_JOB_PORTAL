@@ -12,4 +12,4 @@ Navigating the job market in Belize can be difficult for both University of Beli
 
 -Website will handle documents sent between student and employer.
 
--Communication between student and employer to ensure a seamless process of recruitment.
+-Communication between student and employer to ensure a seamless process of recruitment. 
