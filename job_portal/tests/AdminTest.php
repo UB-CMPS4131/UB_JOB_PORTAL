@@ -5,14 +5,48 @@ use PHPUnit\Framework\TestCase;
 
 class AdminTest extends TestCase
 {
+    public function testConstructor()
+    {
+        $username = 'admin_user';
+        $email = 'admin@example.com';
+
+        $admin = new Admin($username, $email);
+
+        $this->assertInstanceOf(Admin::class, $admin); // Check if the object is an instance of the Admin class
+        $this->assertAttributeEquals($username, 'username', $admin); // Check if username attribute is set correctly
+        $this->assertAttributeEquals($email, 'email', $admin); // Check if email attribute is set correctly
+    }
+
     public function testGetAdminInfo()
     {
-        $admin = new Admin('admin_user', 'admin@example.com');
+        $username = 'admin_user';
+        $email = 'admin@example.com';
+
+        $admin = new Admin($username, $email);
+
         $expected = [
-            'username' => 'admin_user',
-            'email' => 'admin@example.com'
+            'username' => $username,
+            'email' => $email
         ];
 
+        $this->assertEquals($expected, $admin->getAdminInfo()); // Check if getAdminInfo returns expected output
+    }
+
+    public function testGetAdminInfoEmailMismatch()
+    {
+        $username = 'admin_user';
+        $email = 'admin@example.com';
+    
+        // Create an Admin instance with a different email
+        $admin = new Admin($username, 'another_email@example.com');
+    
+        $expected = [
+            'username' => $username,
+            'email' => $email
+        ];
+    
+        // This assertion should fail because the email returned by getAdminInfo doesn't match the expected email
         $this->assertEquals($expected, $admin->getAdminInfo());
     }
+   
 }

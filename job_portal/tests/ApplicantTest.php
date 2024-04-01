@@ -1,60 +1,159 @@
 <?php
-
-// require_once 'applicant.php'; 
-
 declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
 class ApplicantTest extends TestCase
 {
+    public function testConstructor()
+    {
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        $this->assertInstanceOf(Applicant::class, $applicant); // Check if the object is an instance of the Applicant class
+        $this->assertAttributeEquals($firstname, 'firstname', $applicant); // Check if firstname attribute is set correctly
+        $this->assertAttributeEquals($lastname, 'lastname', $applicant); // Check if lastname attribute is set correctly
+        $this->assertAttributeEquals($studentid, 'studentid', $applicant); // Check if studentid attribute is set correctly
+        $this->assertAttributeEquals($email, 'email', $applicant); // Check if email attribute is set correctly
+        $this->assertAttributeEquals($password, 'password', $applicant); // Check if password attribute is set correctly
+        $this->assertAttributeEquals($repeatedPassword, 'repeatedPassword', $applicant); // Check if repeatedPassword attribute is set correctly
+    }
+
     public function testGetApplicantInfo()
     {
-        $applicant = new Applicant('John', 'Doe', '123456', 'john@example.com', 'password', 'password');
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
         $expected = [
-            'firstname' => 'John',
-            'lastname' => 'Doe',
-            'studentid' => '123456',
-            'email' => 'john@example.com',
-            'password' => 'password',
-            'repeatedPassword' => 'password'
+            'firstname' => $firstname,
+            'lastname' => $lastname,
+            'studentid' => $studentid,
+            'email' => $email,
+            'password' => $password,
+            'repeatedPassword' => $repeatedPassword
         ];
 
-        $this->assertEquals($expected, $applicant->getApplicantInfo());
+        $this->assertEquals($expected, $applicant->getApplicantInfo()); // Check if getApplicantInfo returns expected output
     }
 
-    public function testGetFirstName()
+    public function testGetFirstname()
     {
-        $applicant = new Applicant('John', 'Doe', '123456', 'john@example.com', 'password', 'password');
-        $this->assertEquals('John', $applicant->get_firstname());
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        $this->assertEquals($firstname, $applicant->get_firstname()); // Check if get_firstname returns correct value
     }
 
-    public function testGetLastName()
+    public function testGetLastname()
     {
-        $applicant = new Applicant('John', 'Doe', '123456', 'john@example.com', 'password', 'password');
-        $this->assertEquals('Doe', $applicant->get_lastname());
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        $this->assertEquals($lastname, $applicant->get_lastname()); // Check if get_lastname returns correct value
     }
 
-    public function testGetStudentId()
+    public function testGetStudentid()
     {
-        $applicant = new Applicant('John', 'Doe', '123456', 'john@example.com', 'password', 'password');
-        $this->assertEquals('123456', $applicant->get_studentid());
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        $this->assertEquals($studentid, $applicant->get_studentid()); // Check if get_studentid returns correct value
     }
 
     public function testGetEmail()
     {
-        $applicant = new Applicant('John', 'Doe', '123456', 'john@example.com', 'password', 'password');
-        $this->assertEquals('john@example.com', $applicant->get_email());
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        $this->assertEquals($email, $applicant->get_email()); // Check if get_email returns correct value
     }
 
     public function testGetPassword()
     {
-        $applicant = new Applicant('John', 'Doe', '123456', 'john@example.com', 'password', 'password');
-        $this->assertEquals('password', $applicant->get_password());
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        $this->assertEquals($password, $applicant->get_password()); // Check if get_password returns correct value
     }
 
     public function testGetRepeatedPassword()
     {
-        $applicant = new Applicant('John', 'Doe', '123456', 'john@example.com', 'password', 'password');
-        $this->assertEquals('password', $applicant->get_repeatedPassword());
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        $this->assertEquals($repeatedPassword, $applicant->get_repeatedPassword()); // Check if get_repeatedPassword returns correct value
     }
+
+    public function testGetApplicantInfoIncomplete()
+    {
+        $firstname = 'John';
+        $lastname = 'Doe';
+        $studentid = '123456';
+        $email = 'john@example.com';
+        $password = 'password';
+        $repeatedPassword = 'password';
+
+        $applicant = new Applicant($firstname, $lastname, $studentid, $email, $password, $repeatedPassword);
+
+        // Intentionally omit one property from the expected array
+        $expected = [
+           'firstname' => $firstname,
+           'lastname' => $lastname,
+           'studentid' => $studentid,
+           'email' => $email,
+           'password' => $password,
+          // 'repeatedPassword' => $repeatedPassword // Omitting repeatedPassword property
+       ];
+
+      // This assertion should fail because the returned array is incomplete
+      $this->assertEquals($expected, $applicant->getApplicantInfo());
+   }
+
 }
