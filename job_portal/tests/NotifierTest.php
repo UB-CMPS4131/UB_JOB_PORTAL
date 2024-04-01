@@ -1,7 +1,8 @@
 <?php 
 
-require_once 'notifier.php';
+// require_once 'notifier.php';
 
+declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
 class NotifierTest extends TestCase

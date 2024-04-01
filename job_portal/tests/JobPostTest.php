@@ -1,7 +1,7 @@
 <?php
 
-require_once 'jobPost.php'; 
-
+// require_once 'jobPost.php'; 
+declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
 class JobPostTest extends TestCase

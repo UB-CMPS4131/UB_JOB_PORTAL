@@ -1,8 +1,7 @@
 <?php
 
-require_once 'admin.php';
-
-use PHPUnit\FrameWork\TestCase;
+declare(strict_types=1);
+use PHPUnit\Framework\TestCase;
 
 class AdminTest extends TestCase
 {
@@ -14,6 +13,6 @@ class AdminTest extends TestCase
             'email' => 'admin@example.com'
         ];
 
-        $this->asserEquals($expected, $admin->getAdminInfo());
+        $this->assertEquals($expected, $admin->getAdminInfo());
     }
 }

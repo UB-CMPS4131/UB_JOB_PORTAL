@@ -1,7 +1,8 @@
 <?php
 
-require_once 'applicant.php'; 
+// require_once 'applicant.php'; 
 
+declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
 class ApplicantTest extends TestCase

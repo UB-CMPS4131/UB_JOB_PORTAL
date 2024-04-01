@@ -1,7 +1,8 @@
 <?php
 
-require_once 'searchCriteria.php'; 
+// require_once 'searchCriteria.php'; 
 
+declare(strict_types=1);
 use PHPUnit\Framework\TestCase;
 
 class SearchCriteriaTest extends TestCase
