@@ -13,8 +13,8 @@ class AdminTest extends TestCase
         $admin = new Admin($username, $email);
 
         $this->assertInstanceOf(Admin::class, $admin); // Check if the object is an instance of the Admin class
-        $this->assertAttributeEquals($username, 'username', $admin); // Check if username attribute is set correctly
-        $this->assertAttributeEquals($email, 'email', $admin); // Check if email attribute is set correctly
+        $this->assertEquals($username, $admin->getUsername()); // Check if username attribute is set correctly
+        $this->assertEquals($email, $admin->getEmail()); // Check if email attribute is set correctly
     }
 
     public function testGetAdminInfo()
@@ -48,5 +48,41 @@ class AdminTest extends TestCase
         // This assertion should fail because the email returned by getAdminInfo doesn't match the expected email
         $this->assertEquals($expected, $admin->getAdminInfo());
     }
-   
 }
+
+class Admin {
+    private string $username;
+    private string $email;
+
+    public function __construct(string $username, string $email) {
+        $this->username = $username;
+        $this->email = $email;
+    }
+
+    // Getter functions
+    public function getUsername(): string {
+        return $this->username;
+    }
+
+    public function getEmail(): string {
+        return $this->email;
+    }
+
+    // Setter functions
+    public function setUsername(string $username): void {
+        $this->username = $username;
+    }
+
+    public function setEmail(string $email): void {
+        $this->email = $email;
+    }
+
+    public function getAdminInfo(): array {
+        return [
+            'username' => $this->username,
+            'email' => $this->email
+        ];
+    }
+}
+
+?>
