@@ -9,7 +9,5 @@ if(isset($_POST["registerAccount"])){ //if a button to add a new user is clicked
         $controller = new APIController();
         $controller->registerUser($newEmployer);
     }else if(isset($_POST["firstname"])){
-
     }
-
 }
