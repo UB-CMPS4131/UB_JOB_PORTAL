@@ -103,9 +103,10 @@ class Applicant
     public function getApplicantInfo(): array
     {
         return [
+            'id' => $this->id,
+            'studentid' => $this->studentid,
             'firstname' => $this->firstname,
             'lastname' => $this->lastname,
-            'studentid' => $this->studentid,
             'email' => $this->email,
             'password' => $this->password,
             'repeatedPassword' => $this->repeatedPassword

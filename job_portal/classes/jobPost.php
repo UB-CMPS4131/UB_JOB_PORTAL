@@ -38,6 +38,7 @@ class JobPost {
 
     public function getPost(): array {
         return [
+            'id' => $this->id,
             'title' => $this->title,
             'body' => $this->body
         ];

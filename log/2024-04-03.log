@@ -1,181 +1,324 @@
-[2024-04-03 22:25:19][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:25:19][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:25:19][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:25:19][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:25:19][INFO] adding new post to database
-[2024-04-03 22:25:19][INFO] new post added to database...returning id
-[2024-04-03 22:25:19][INFO] last inserted record for post is 27
-[2024-04-03 22:25:19][INFO] retreived new job post id as 27 in APIController::newJobPost
-[2024-04-03 22:26:04][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:26:04][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:26:04][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:26:04][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:26:04][INFO] adding new post to database
-[2024-04-03 22:26:04][INFO] new post added to database...returning id
-[2024-04-03 22:26:04][INFO] last inserted record for post is 28
-[2024-04-03 22:26:04][INFO] retreived new job post id as 28 in APIController::newJobPost
-[2024-04-03 22:26:04][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:26:23][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:26:23][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:26:23][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:26:23][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:26:23][INFO] adding new post to database
-[2024-04-03 22:26:24][INFO] new post added to database...returning id
-[2024-04-03 22:26:24][INFO] last inserted record for post is 29
-[2024-04-03 22:26:24][INFO] retreived new job post id as 29 in APIController::newJobPost
-[2024-04-03 22:26:24][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:27:27][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:27:27][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:27:27][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:27:27][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:27:27][INFO] adding new post to database
-[2024-04-03 22:27:27][INFO] new post added to database...returning id
-[2024-04-03 22:27:27][INFO] last inserted record for post is 30
-[2024-04-03 22:27:27][INFO] retreived new job post id as 30 in APIController::newJobPost
-[2024-04-03 22:27:27][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:27:46][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:27:46][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:27:46][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:27:46][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:27:46][INFO] adding new post to database
-[2024-04-03 22:27:46][INFO] new post added to database...returning id
-[2024-04-03 22:27:46][INFO] last inserted record for post is 31
-[2024-04-03 22:27:46][INFO] retreived new job post id as 31 in APIController::newJobPost
-[2024-04-03 22:29:27][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:29:27][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:29:27][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:29:27][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:29:27][INFO] adding new post to database
-[2024-04-03 22:29:27][INFO] new post added to database...returning id
-[2024-04-03 22:29:27][INFO] last inserted record for post is 32
-[2024-04-03 22:29:27][INFO] retreived new job post id as 32 in APIController::newJobPost
-[2024-04-03 22:29:27][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:29:29][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:29:29][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:29:29][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:29:29][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:29:29][INFO] adding new post to database
-[2024-04-03 22:29:29][INFO] new post added to database...returning id
-[2024-04-03 22:29:29][INFO] last inserted record for post is 33
-[2024-04-03 22:29:29][INFO] retreived new job post id as 33 in APIController::newJobPost
-[2024-04-03 22:29:29][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:29:55][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:29:55][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:29:55][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:29:55][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:29:55][INFO] adding new post to database
-[2024-04-03 22:29:55][INFO] new post added to database...returning id
-[2024-04-03 22:29:55][INFO] last inserted record for post is 34
-[2024-04-03 22:29:55][INFO] retreived new job post id as 34 in APIController::newJobPost
-[2024-04-03 22:29:55][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:29:55][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:29:55][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:29:55][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:29:55][ERROR] Empty field job post title
-[2024-04-03 22:30:01][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:30:01][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:30:01][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:30:01][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:30:01][INFO] adding new post to database
-[2024-04-03 22:30:01][INFO] new post added to database...returning id
-[2024-04-03 22:30:01][INFO] last inserted record for post is 35
-[2024-04-03 22:30:01][INFO] retreived new job post id as 35 in APIController::newJobPost
-[2024-04-03 22:30:01][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:30:01][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:30:01][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:30:01][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:30:01][ERROR] Empty field job post title
-[2024-04-03 22:30:53][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:30:53][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:30:53][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:30:53][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:30:53][INFO] adding new post to database
-[2024-04-03 22:30:53][INFO] new post added to database...returning id
-[2024-04-03 22:30:53][INFO] last inserted record for post is 36
-[2024-04-03 22:30:53][INFO] retreived new job post id as 36 in APIController::newJobPost
-[2024-04-03 22:30:53][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:30:53][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:30:53][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:30:53][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:30:53][ERROR] Empty field job post title
-[2024-04-03 22:31:09][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:31:09][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:31:09][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:31:09][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:31:09][INFO] adding new post to database
-[2024-04-03 22:31:09][INFO] new post added to database...returning id
-[2024-04-03 22:31:09][INFO] last inserted record for post is 37
-[2024-04-03 22:31:09][INFO] retreived new job post id as 37 in APIController::newJobPost
-[2024-04-03 22:31:09][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:31:09][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:31:09][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:31:09][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:31:09][ERROR] Empty field job post title
-[2024-04-03 22:32:04][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:04][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:04][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:04][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:32:04][INFO] adding new post to database
-[2024-04-03 22:32:04][INFO] new post added to database...returning id
-[2024-04-03 22:32:04][INFO] last inserted record for post is 38
-[2024-04-03 22:32:04][INFO] retreived new job post id as 38 in APIController::newJobPost
-[2024-04-03 22:32:04][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:32:04][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:04][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:04][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:04][ERROR] Empty field job post title
-[2024-04-03 22:32:04][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:04][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:04][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:04][ERROR] Empty field job post body
-[2024-04-03 22:32:20][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:20][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:20][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:20][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:32:20][INFO] adding new post to database
-[2024-04-03 22:32:20][INFO] new post added to database...returning id
-[2024-04-03 22:32:20][INFO] last inserted record for post is 39
-[2024-04-03 22:32:20][INFO] retreived new job post id as 39 in APIController::newJobPost
-[2024-04-03 22:32:20][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:32:20][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:20][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:20][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:20][ERROR] Empty field job post title
-[2024-04-03 22:32:20][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:20][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:20][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:20][ERROR] Empty field job post body
-[2024-04-03 22:32:35][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:35][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:35][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:35][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:32:35][INFO] adding new post to database
-[2024-04-03 22:32:35][INFO] new post added to database...returning id
-[2024-04-03 22:32:35][INFO] last inserted record for post is 40
-[2024-04-03 22:32:35][INFO] retreived new job post id as 40 in APIController::newJobPost
-[2024-04-03 22:32:35][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:32:35][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:35][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:35][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:35][ERROR] Empty field job post title
-[2024-04-03 22:32:35][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:35][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:35][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:35][ERROR] Empty field job post body
-[2024-04-03 22:32:38][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:38][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:38][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:38][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
-[2024-04-03 22:32:38][INFO] adding new post to database
-[2024-04-03 22:32:38][INFO] new post added to database...returning id
-[2024-04-03 22:32:38][INFO] last inserted record for post is 41
-[2024-04-03 22:32:38][INFO] retreived new job post id as 41 in APIController::newJobPost
-[2024-04-03 22:32:38][INFO] Post success: notifiier is (Job Post Created)
-[2024-04-03 22:32:38][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:38][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:38][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:38][ERROR] Empty field job post title
-[2024-04-03 22:32:38][INFO] SQLHandler::__construct database connected
-[2024-04-03 22:32:38][INFO] Creating a job postAPIController::newJobPost
-[2024-04-03 22:32:38][INFO] Checking job post fields in JobPostHandler::checkFields
-[2024-04-03 22:32:38][ERROR] Empty field job post body
+[2024-04-03 22:56:09][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:09][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:09][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:09][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:09][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:09][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:09][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:09][INFO] Passwords match
+[2024-04-03 22:56:09][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 22:56:09][INFO] Field check successful
+[2024-04-03 22:56:09][INFO] Query executed successfully
+[2024-04-03 22:56:09][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 22:56:09][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:09][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:09][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:09][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:09][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:09][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:09][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:09][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:09][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:09][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:09][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:09][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:09][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:09][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:09][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:09][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:09][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:09][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Disabling/Deleting a user with id 22 APIController::deleteEmployer
+[2024-04-03 22:56:14][INFO] Employer with ID 22 deleted successfully
+[2024-04-03 22:56:14][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Disabling/Deleting a user with id 1000 APIController::deleteEmployer
+[2024-04-03 22:56:14][INFO] Employer with ID 1000 deleted successfully
+[2024-04-03 22:56:14][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Disabling/Deleting a user with id -4 APIController::deleteEmployer
+[2024-04-03 22:56:14][INFO] Employer with ID -4 deleted successfully
+[2024-04-03 22:56:14][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:14][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:14][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:56:14][INFO] adding new post to database
+[2024-04-03 22:56:14][INFO] new post added to database...returning id
+[2024-04-03 22:56:14][INFO] last inserted record for post is 16
+[2024-04-03 22:56:14][INFO] retreived new job post id as 16 in APIController::newJobPost
+[2024-04-03 22:56:14][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:14][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:14][ERROR] Empty field job post title
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:14][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:14][ERROR] Empty field job post body
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:14][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:14][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:14][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:14][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:14][INFO] Student Id is validRegistrationHandler::ensureIsValidStudentId
+[2024-04-03 22:56:14][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:14][INFO] Passwords match
+[2024-04-03 22:56:14][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 22:56:14][INFO] Field check successful
+[2024-04-03 22:56:14][INFO] Query executed successfully
+[2024-04-03 22:56:14][INFO] register success: notifiier is (Applicant is registered)
+[2024-04-03 22:56:14][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:14][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:14][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:14][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:14][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:15][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:15][INFO] Passwords match
+[2024-04-03 22:56:15][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 22:56:15][INFO] Field check successful
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:15][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:15][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:15][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:15][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:15][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:15][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:15][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Disabling/Deleting a user with id 22 APIController::deleteEmployer
+[2024-04-03 22:56:36][INFO] Employer with ID 22 deleted successfully
+[2024-04-03 22:56:36][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Disabling/Deleting a user with id 1000 APIController::deleteEmployer
+[2024-04-03 22:56:36][INFO] Employer with ID 1000 deleted successfully
+[2024-04-03 22:56:36][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Disabling/Deleting a user with id -4 APIController::deleteEmployer
+[2024-04-03 22:56:36][INFO] Employer with ID -4 deleted successfully
+[2024-04-03 22:56:36][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:36][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:36][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:56:36][INFO] adding new post to database
+[2024-04-03 22:56:36][INFO] new post added to database...returning id
+[2024-04-03 22:56:36][INFO] last inserted record for post is 17
+[2024-04-03 22:56:36][INFO] retreived new job post id as 17 in APIController::newJobPost
+[2024-04-03 22:56:36][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:36][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:36][ERROR] Empty field job post title
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:36][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:36][ERROR] Empty field job post body
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:36][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:36][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:36][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:36][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:36][INFO] Student Id is validRegistrationHandler::ensureIsValidStudentId
+[2024-04-03 22:56:36][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:36][INFO] Passwords match
+[2024-04-03 22:56:36][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 22:56:36][INFO] Field check successful
+[2024-04-03 22:56:36][INFO] Query executed successfully
+[2024-04-03 22:56:36][INFO] register success: notifiier is (Applicant is registered)
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:36][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:36][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:36][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:36][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:36][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:36][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:36][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:36][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:36][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:36][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:36][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:36][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:37][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:37][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:37][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:37][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:37][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:37][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:37][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:37][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:37][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:37][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:37][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:37][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:37][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:37][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:37][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:37][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:37][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:37][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:37][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:37][INFO] Passwords match
+[2024-04-03 22:56:37][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 22:56:37][INFO] Field check successful
+[2024-04-03 22:56:37][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:37][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:37][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:37][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:37][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:37][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:37][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:37][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:37][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:37][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:37][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:37][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:37][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:37][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:37][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:37][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:37][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:37][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Disabling/Deleting a user with id 22 APIController::deleteEmployer
+[2024-04-03 22:56:58][INFO] Employer with ID 22 deleted successfully
+[2024-04-03 22:56:58][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Disabling/Deleting a user with id 1000 APIController::deleteEmployer
+[2024-04-03 22:56:58][INFO] Employer with ID 1000 deleted successfully
+[2024-04-03 22:56:58][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Disabling/Deleting a user with id -4 APIController::deleteEmployer
+[2024-04-03 22:56:58][INFO] Employer with ID -4 deleted successfully
+[2024-04-03 22:56:58][INFO] delete success: notifiier is (Employer deleted)
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:58][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:58][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:56:58][INFO] adding new post to database
+[2024-04-03 22:56:58][INFO] new post added to database...returning id
+[2024-04-03 22:56:58][INFO] last inserted record for post is 18
+[2024-04-03 22:56:58][INFO] retreived new job post id as 18 in APIController::newJobPost
+[2024-04-03 22:56:58][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:58][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:58][ERROR] Empty field job post title
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:56:58][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:56:58][ERROR] Empty field job post body
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:58][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:58][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:58][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:58][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:58][INFO] Student Id is validRegistrationHandler::ensureIsValidStudentId
+[2024-04-03 22:56:58][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:58][INFO] Passwords match
+[2024-04-03 22:56:58][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 22:56:58][INFO] Field check successful
+[2024-04-03 22:56:58][INFO] Query executed successfully
+[2024-04-03 22:56:58][INFO] register success: notifiier is (Applicant is registered)
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:58][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:58][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:58][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:58][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:58][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:58][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:58][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:58][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:58][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:58][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:58][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:59][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:59][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:59][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:59][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:59][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:59][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:59][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:59][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:59][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:59][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:59][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:59][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:59][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:59][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:59][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:59][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:59][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:59][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:59][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:59][INFO] Passwords match
+[2024-04-03 22:56:59][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 22:56:59][INFO] Field check successful
+[2024-04-03 22:56:59][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:59][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:59][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:59][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:59][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:59][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:59][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:59][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:59][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:59][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:59][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:56:59][INFO] Registering a userAPIController::registerUser
+[2024-04-03 22:56:59][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 22:56:59][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 22:56:59][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 22:56:59][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 22:56:59][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-03 22:56:59][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
