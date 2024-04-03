@@ -1,28 +1,37 @@
 <?php
 
-class JobPost
-{
-    private $title;
-    private $body;
 
-    public function __construct($title, $body)
-    {
+class JobPost {
+    private string $title;
+    private string $body;
+
+    public function __construct(string $title, string $body) {
         $this->title = $title;
         $this->body = $body;
     }
-    public function getPost()
-    {
-        return array(
-            'title' => $this->title,
-            'body' => $this->body
-        );
-    }
-    public function getTitle()
-    {
+
+    // Getter functions
+    public function getTitle(): string {
         return $this->title;
     }
-    public function getBody()
-    {
+
+    public function getBody(): string {
         return $this->body;
+    }
+
+    // Setter functions
+    public function setTitle(string $title): void {
+        $this->title = $title;
+    }
+
+    public function setBody(string $body): void {
+        $this->body = $body;
+    }
+
+    public function getPost(): array {
+        return [
+            'title' => $this->title,
+            'body' => $this->body
+        ];
     }
 }

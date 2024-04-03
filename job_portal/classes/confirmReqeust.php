@@ -7,7 +7,7 @@ class ConfirmRequest{
     public function setOption($option){
         $this->option = $option;
     }
-    public function getOption($option){
+    public function getOption(){
         return $this->option;
     }
 }

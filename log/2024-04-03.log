@@ -1,0 +1,217 @@
+[2024-04-03 16:28:22][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:28:22][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:28:22][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:28:22][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:28:22][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:28:22][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:28:22][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:28:22][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:28:22][INFO] Query executed successfully
+[2024-04-03 16:28:22][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:28:22][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:28:22][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:28:22][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:28:22][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:28:22][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:33][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:33][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:33][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:33][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:33][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:33][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:34:33][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:34:33][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:34:33][INFO] Query executed successfully
+[2024-04-03 16:34:33][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:34:33][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:33][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:33][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:33][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:33][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:33][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:33][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:33][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:33][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:33][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:46][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:46][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:46][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:46][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:46][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:46][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:34:46][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:34:46][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:34:46][INFO] Query executed successfully
+[2024-04-03 16:34:46][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:34:46][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:46][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:46][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:46][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:46][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:47][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:47][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:47][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:47][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:47][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:47][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:34:47][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:34:47][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:34:47][INFO] Query executed successfully
+[2024-04-03 16:34:47][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:34:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:58][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:58][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:58][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:58][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:58][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:34:58][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:34:58][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:34:58][INFO] Query executed successfully
+[2024-04-03 16:34:58][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:34:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:58][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:58][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:58][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:58][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:34:58][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:34:58][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:34:58][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:34:58][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:34:58][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:07][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:07][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:07][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:07][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:07][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:07][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:37:07][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:37:07][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:37:07][INFO] Query executed successfully
+[2024-04-03 16:37:07][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:37:07][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:07][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:07][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:07][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:07][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:07][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:07][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:07][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:07][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:07][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:07][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:07][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:07][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:07][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:07][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:10][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:10][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:10][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:10][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:10][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:10][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:37:10][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:37:10][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:37:10][INFO] Query executed successfully
+[2024-04-03 16:37:10][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:37:10][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:10][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:10][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:10][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:10][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:11][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:11][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:11][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:11][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:11][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:11][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:11][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:11][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:11][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:11][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:31][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:31][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:31][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:31][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:31][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:31][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:37:31][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:37:31][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:37:31][INFO] Query executed successfully
+[2024-04-03 16:37:31][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:37:31][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:31][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:31][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:31][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:31][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:32][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:32][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:32][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:32][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:32][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:32][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:32][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:32][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:32][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:32][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:32][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:37:32][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:37:32][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:37:32][INFO] Query executed successfully
+[2024-04-03 16:37:32][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:37:42][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:42][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:42][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:42][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:42][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:42][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:37:42][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:37:42][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:37:42][INFO] Query executed successfully
+[2024-04-03 16:37:42][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:37:42][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:42][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:42][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:42][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:42][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:42][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:42][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:42][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:42][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:42][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:42][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:37:42][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:37:42][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:37:42][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:37:42][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:37:42][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:37:42][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:37:42][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:37:42][INFO] Query executed successfully
+[2024-04-03 16:37:42][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:39:30][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:39:30][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:39:30][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:39:30][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:39:30][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:39:30][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:39:30][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-03 16:39:30][INFO] Registration passwords do not matchRegistrationHandler::passwordMatch
+[2024-04-03 16:39:30][INFO] Query executed successfully
+[2024-04-03 16:39:30][INFO] register success: notifiier is (Employer is registered)
+[2024-04-03 16:39:30][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:39:30][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:39:30][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:39:30][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:39:30][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:39:30][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:39:30][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:39:30][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:39:30][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:39:30][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:39:30][INFO] SQLHandler::__construct database connected
+[2024-04-03 16:39:30][INFO] Registering a userAPIController::registerUser
+[2024-04-03 16:39:30][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-03 16:39:30][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-03 16:39:30][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-03 16:39:30][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-03 16:39:30][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
