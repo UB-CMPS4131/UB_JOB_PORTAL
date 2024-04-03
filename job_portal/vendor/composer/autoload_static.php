@@ -34,8 +34,17 @@ class ComposerStaticInit48318ab36a580be9e1c12fea86d56383
     );
 
     public static $classMap = array (
+        'Admin' => __DIR__ . '/../..' . '/classes/admin.php',
+        'Applicant' => __DIR__ . '/../..' . '/classes/applicant.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'ConfirmRequest' => __DIR__ . '/../..' . '/classes/confirmRequest.php',
         'Email' => __DIR__ . '/../..' . '/src/Email.php',
+        'Employer' => __DIR__ . '/../..' . '/classes/employer.php',
+        'EmployerList' => __DIR__ . '/../..' . '/classes/employerList.php',
+        'JobList' => __DIR__ . '/../..' . '/classes/jobList.php',
+        'JobPost' => __DIR__ . '/../..' . '/classes/jobPost.php',
+        'JobPostHandler' => __DIR__ . '/../..' . '/classes/jobPostHandler.php',
+        'Notifier' => __DIR__ . '/../..' . '/classes/notifier.php',
         'PHPUnit\\Event\\Application\\Finished' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Finished.php',
         'PHPUnit\\Event\\Application\\FinishedSubscriber' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/FinishedSubscriber.php',
         'PHPUnit\\Event\\Application\\Started' => __DIR__ . '/..' . '/phpunit/phpunit/src/Event/Events/Application/Started.php',
@@ -914,6 +923,8 @@ class ComposerStaticInit48318ab36a580be9e1c12fea86d56383
         'PharIo\\Version\\VersionConstraintParser' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintParser.php',
         'PharIo\\Version\\VersionConstraintValue' => __DIR__ . '/..' . '/phar-io/version/src/VersionConstraintValue.php',
         'PharIo\\Version\\VersionNumber' => __DIR__ . '/..' . '/phar-io/version/src/VersionNumber.php',
+        'RegistrationHandler' => __DIR__ . '/../..' . '/classes/registrationHandler.php',
+        'SearchCriteria' => __DIR__ . '/../..' . '/classes/searchCriteria.php',
         'SebastianBergmann\\CliParser\\AmbiguousOptionException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/AmbiguousOptionException.php',
         'SebastianBergmann\\CliParser\\Exception' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/Exception.php',
         'SebastianBergmann\\CliParser\\OptionDoesNotAllowArgumentException' => __DIR__ . '/..' . '/sebastian/cli-parser/src/exceptions/OptionDoesNotAllowArgumentException.php',
@@ -1125,6 +1136,7 @@ class ComposerStaticInit48318ab36a580be9e1c12fea86d56383
         'TheSeer\\Tokenizer\\TokenCollectionException' => __DIR__ . '/..' . '/theseer/tokenizer/src/TokenCollectionException.php',
         'TheSeer\\Tokenizer\\Tokenizer' => __DIR__ . '/..' . '/theseer/tokenizer/src/Tokenizer.php',
         'TheSeer\\Tokenizer\\XMLSerializer' => __DIR__ . '/..' . '/theseer/tokenizer/src/XMLSerializer.php',
+        'User' => __DIR__ . '/../..' . '/classes/user.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

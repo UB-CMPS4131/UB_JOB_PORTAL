@@ -7,12 +7,12 @@ class Applicant extends User{
     private $password;
     private $repeatedPassword;    
     public function __construct($firstname, $lastname, $studentid, $email, $password, $repeatedPassword){
-        $this->$firstname = $firstname;
-        $this->$lastname = $lastname;
-        $this->$studentid = $studentid;
-        $this->$email = $email;
-        $this->$password = $password;
-        $this->$repeatedPassword = $repeatedPassword;
+        $this->firstname = $firstname;
+        $this->lastname = $lastname;
+        $this->studentid = $studentid;
+        $this->email = $email;
+        $this->password = $password;
+        $this->repeatedPassword = $repeatedPassword;
     }
     public function getApplicantInfo(){
         return array(

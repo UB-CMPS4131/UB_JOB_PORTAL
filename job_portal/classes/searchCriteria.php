@@ -8,10 +8,10 @@ class SearchCriteria{
 
     public function __construct($internship, $fulltime, $parttime, $remote)
     {
-        $this->internship = $internship;;
-        $this->fulltime = $fulltime;;
-        $this->parttime = $parttime;;
-        $this->remote = $remote;;
+        $this->internship = $internship;
+        $this->fulltime = $fulltime;
+        $this->parttime = $parttime;
+        $this->remote = $remote;
     }
     public function getSearchCriteriaList(){
         return array(

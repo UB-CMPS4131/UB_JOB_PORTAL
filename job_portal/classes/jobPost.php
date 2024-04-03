@@ -1,5 +1,7 @@
 <?php
 
+// declare(strict_types=1);
+
 class JobPost
 {
     private $title;
@@ -10,7 +12,7 @@ class JobPost
         $this->title = $title;
         $this->body = $body;
     }
-    public function getPost()
+    public function getPozzst()
     {
         return array(
             'title' => $this->title,

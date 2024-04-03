@@ -1,6 +1,6 @@
 <?php
 
-class Admin{
+class Admin extends User{
     private $username;
     private $email;
     public function __construct($username, $email)
@@ -10,7 +10,7 @@ class Admin{
     }
     public function getAdminInfo(){
         return array(
-            'username' => $this->username,
+            'username' => $this->usernazme,
             'email' => $this->email
         );
     }
