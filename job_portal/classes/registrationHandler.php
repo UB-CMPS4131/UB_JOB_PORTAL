@@ -9,6 +9,8 @@ class RegistrationHandler
 
     function __construct($user)
     {
+        $this->logger = new Logger();
+        $this->logger->info("Registration Handler created" . __METHOD__);
         if ($user instanceof Applicant) {
             $this->userToRegister = $user;
         } elseif ($user instanceof Employer) {
@@ -16,24 +18,23 @@ class RegistrationHandler
         } else {
             throw new InvalidArgumentException("Registration Handler received neither class Applicant or Employer");
         }
-        $this->logger = new Logger();
-        $this->logger->info("Registration Handler created".__METHOD__);
         // $this->logger->info(memory_get_usage().__METHOD__);
     }
 
     public function checkFields()
     {
         // $this->logger->info("start of checkfields(): ".memory_get_usage().__METHOD__);
-        $this->logger->info("checking the input fields".__METHOD__);
+        $this->logger->info("checking the input fields" . __METHOD__);
         if ($this->userToRegister instanceof Applicant || $this->userToRegister instanceof Employer) {
             $this->checkEmptyFields();
             $this->containsInvalidCharacters();
-            $this->checkForInvalidStringLengths();
             $this->passwordMatch();
+            $this->checkForInvalidStringLengths();
+            $this->logger->info("Field check successful");
             //return true on no errors
             return true;
-        }else{
-            throw new InvalidArgumentException("Cannot check fields of invalid class type. Expected Employer or Applicant in ".__METHOD__);
+        } else {
+            throw new InvalidArgumentException("Cannot check fields of invalid class type. Expected Employer or Applicant in " . __METHOD__);
             return false;
         }
     }
@@ -55,16 +56,24 @@ class RegistrationHandler
                 throw new Exception("Invalid characters found in the company name. Received " . $this->userToRegister->getCompanyName());
             }
             $this->ensureIsValidEmail($this->userToRegister->getCompanyEmail());
-
         } else if ($this->userToRegister instanceof Applicant) {
-            
+            if (preg_match($invalidCharsRegex, $this->userToRegister->getFirstName())) {
+                throw new Exception("Invalid characters found in the applicant first name. Received " . $this->userToRegister->getFirstName());
+            }
+            if (preg_match($invalidCharsRegex, $this->userToRegister->getLastName())) {
+                throw new Exception("Invalid characters found in the applicant last name. Received " . $this->userToRegister->getLastName());
+            }
+            $this->ensureIsValidEmail($this->userToRegister->getEmail());
+            $this->ensureIsValidStudentId($this->userToRegister->getstudentId());
         } else {
             throw new InvalidArgumentException("Cannot check fields of invalid class type. Expected Employer or Applicant");
         }
+        $this->logger->info("No Invalid characters in value strings" . __METHOD__);
     }
 
     private function checkForInvalidStringLengths()
     {
+        $this->logger = new Logger();
         $minPasswordLength = 5;
         $maxNameLength = 20;
         $maxEmailLength = 60;
@@ -73,12 +82,11 @@ class RegistrationHandler
         $password = $this->userToRegister->getPassword();
 
         if ($this->userToRegister instanceof Employer) {
-            $maxCompanyNameLength = 30;
+            $maxCompanyNameLength = 40;
             $companyName = $this->userToRegister->getCompanyName();
             $companyEmail = $this->userToRegister->getCompanyEmail();
-            $companyEmail = $this->userToRegister->getCompanyEmail();
             if (strlen($firstname) > $maxNameLength) {
-                throw new Exception("Invalid character count in emmployer first name. Expected characters: ", $maxNameLength);
+                throw new Exception("Invalid character count in employer first name. Expected characters: ", $maxNameLength);
             }
             if (strlen($lastname) > $maxNameLength) {
                 throw new Exception("Invalid character count in employer last name. Expected characters: ", $maxNameLength);
@@ -87,30 +95,45 @@ class RegistrationHandler
                 throw new Exception("Invalid character count in the company name. Expected characters: ", $maxCompanyNameLength);
             }
             if (strlen($companyEmail) > $maxEmailLength) {
-                throw new Exception("Invalid character count in the company email. Expected characters: ", $maxEmailLength);
+                throw new Exception("Invalid character count in the company email. Max characters: ", $maxEmailLength);
             }
             if (strlen($password) < $minPasswordLength) {
-                throw new Exception("Invalid character count in the company name. Expected characters: ", $minPasswordLength);
+                throw new Exception("Invalid character count in the password. Expected characters: ", $minPasswordLength);
             }
         } else if ($this->userToRegister instanceof Applicant) {
+            $maxNameLength = 30;
+            $email = $this->userToRegister->getEmail();
+            if (strlen($firstname) > $maxNameLength) {
+                throw new Exception("Invalid character count in applicant first name. Expected characters: ", $maxNameLength);
+            }
+            if (strlen($lastname) > $maxNameLength) {
+                throw new Exception("Invalid character count in applicant last name. Expected characters: ", $maxNameLength);
+            }
+            if (strlen($email) > $maxEmailLength) {
+                throw new Exception("Invalid character count in the applicant email. Max characters: ", $maxEmailLength);
+            }
+            if (strlen($password) < $minPasswordLength) {
+                throw new Exception("Invalid character count in the password. Expected characters: ", $minPasswordLength);
+            }
         } else {
             throw new InvalidArgumentException("Cannot check fields of invalid class type. Expected Employer or Applicant in ", __METHOD__);
         }
-        $this->logger = new Logger();
-        $this->logger->info("No Invalid string length on user registration".__METHOD__);
+        $this->logger->info("No Invalid string length on user registration" . __METHOD__);
     }
 
     private function passwordMatch()
     {
+        $this->logger = new Logger();
         if ($this->userToRegister->getPassword() != $this->userToRegister->getRepeatedPassword()) {
+            $this->logger->info("Registration passwords do not match" . __METHOD__);
             throw new Exception("Passwords do not match");
         }
-        $this->logger = new Logger();
-        $this->logger->info("Registration passwords do not match".__METHOD__);
+        $this->logger->info("Passwords match");
     }
 
     private function ensureIsValidEmail(string $email): void
     {
+        $this->logger = new Logger();
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             throw new InvalidArgumentException(
                 sprintf(
@@ -120,8 +143,17 @@ class RegistrationHandler
             );
             return;
         }
+        $this->logger->info("Email is valid" . __METHOD__);
+    }
+
+    private function ensureIsValidStudentId(string $id)
+    {
         $this->logger = new Logger();
-        $this->logger->info("Email is valid".__METHOD__);
+        if (strlen($id) != 10 || !is_string($id)) {
+            throw new Exception("Invalid Student ID: ".strlen($id));
+        }
+
+        $this->logger->info("Student Id is valid" . __METHOD__);
     }
 
     private function checkEmptyFields()
@@ -130,16 +162,16 @@ class RegistrationHandler
         if ($this->userToRegister instanceof Employer) {
             // Check if any of the variables are empty
             if (empty($this->userToRegister->getFirstname())) {
-                throw new Exception("Value for firstcname is empty");
+                throw new Exception("Value for employer first name is empty");
             }
             if (empty($this->userToRegister->getLastname())) {
-                throw new Exception("Value for lastcname is empty");
+                throw new Exception("Value for employer last name is empty");
             }
             if (empty($this->userToRegister->getPassword())) {
-                throw new Exception("Value for password is empty");
+                throw new Exception("Value for employer password is empty");
             }
             if (empty($this->userToRegister->getRepeatedPassword())) {
-                throw new Exception("Value for repeated Password is empty");
+                throw new Exception("Value for employer repeated Password is empty");
             }
             if (empty($this->userToRegister->getCompanyEmail())) {
                 throw new Exception("Value for company Email is empty");
@@ -151,11 +183,26 @@ class RegistrationHandler
                 throw new Exception("Value for phone Number is empty");
             }
         } else if ($this->userToRegister instanceof Applicant) {
+            if (empty($this->userToRegister->getFirstName())) {
+                throw new Exception("Value for applicant firstname is empty");
+            }
+            if (empty($this->userToRegister->getLastname())) {
+                throw new Exception("Value for applicant lastname is empty");
+            }
+            if (empty($this->userToRegister->getEmail())) {
+                throw new Exception("Value for applicant email is empty");
+            }
+            if (empty($this->userToRegister->getPassword())) {
+                throw new Exception("Value for applicant password is empty");
+            }
+            if (empty($this->userToRegister->getRepeatedPassword())) {
+                throw new Exception("Value for applicant repeatedPassword is empty");
+            }
         } else {
             throw new InvalidArgumentException("Cannot check fields of invalid class type. Expected Employer or Applicant in ", __METHOD__);
         }
 
-        $this->logger = New Logger();
-        $this->logger->info("No fields are empty".__METHOD__);
+        $this->logger = new Logger();
+        $this->logger->info("No fields are empty" . __METHOD__);
     }
 }

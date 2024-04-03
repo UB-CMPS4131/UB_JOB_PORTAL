@@ -24,6 +24,15 @@ class APIController extends Model
                         return [$notifier, true];
                     }
                 } else if ($user instanceof Applicant) {
+                    //do the database action
+                    $result = $this->registerUserInDB($user);
+                    $notifier = new Notifier();
+                    if ($result) {
+                        // Use the Notifier to display the error message as a notification
+                        $notifier->addNotification("Applicant is registered");
+                        $logger->info("register success: notifiier is (" . $notifier->getNotifications()[0] . ")");
+                        return [$notifier, true];
+                    }
                 }
             }
         // } catch (Exception $e) {

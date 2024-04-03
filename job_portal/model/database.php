@@ -1,14 +1,5 @@
 <?php
 
-// include "../includes/dbh.inc.php";
-// include "../classes/applicant.php";
-// include "../classes/employer.php";
-// include "../classes/employerList.php";
-// include "../classes/employerList.php";
-// include "../classes/jobPost.php";
-// include "../classes/jobList.php";
-
-
 class Model extends SQLHandler
 {
 
@@ -26,32 +17,55 @@ class Model extends SQLHandler
     }
     public function createEmployerInDB(Employer $employer)
     {
-            $query = "INSERT INTO `employer` (`id`, `firstName`, `lastName`, `password`, `companyEmail`, `phoneNumber`, `role`, `created at`) VALUES (NULL, ?, ?, ?, ?, ?,?, current_timestamp());";
-            if ($this->sqlDB !== null) {
-                $fn = $employer->getFirstname(); 
-                $ln = $employer->getLastname(); 
-                $hashedpwd = $employer->getHashedPassword(); 
-                $em = $employer->getCompanyEmail(); 
-                $pn = $employer->getPhoneNumber(); 
-                $role = 2;
-                $stmt = $this->sqlDB->prepare($query);
-                $result = $stmt->execute(array($fn, $ln, $hashedpwd, $em, $pn, $role));
-                if ($result === false) {
-                    $this->error("Error executing query: " . $this->sqlDB->error);
-                    throw new Exception("Error executing query: " . $this->sqlDB->error);
-                    return false;
-                } else {
-                    $this->info("Query executed successfully");
-                    return true;
-                }
-            } else {
-                $this->error("Database connection not lost");
-                throw new Exception("SQLError: Database connection lost");
+        $query = "INSERT INTO `employer` (`id`, `firstName`, `lastName`, `password`, `companyEmail`, `phoneNumber`, `role`, `created at`) VALUES (NULL, ?, ?, ?, ?, ?,?, current_timestamp());";
+        if ($this->sqlDB !== null) {
+            $fn = $employer->getFirstname();
+            $ln = $employer->getLastname();
+            $hashedpwd = $employer->getHashedPassword();
+            $em = $employer->getCompanyEmail();
+            $pn = $employer->getPhoneNumber();
+            $role = 2;
+            $stmt = $this->sqlDB->prepare($query);
+            $result = $stmt->execute(array($fn, $ln, $hashedpwd, $em, $pn, $role));
+            if ($result === false) {
+                $this->error("Error executing query: " . $this->sqlDB->error);
+                throw new Exception("Error executing query: " . $this->sqlDB->error);
                 return false;
+            } else {
+                $this->info("Query executed successfully");
+                return true;
             }
+        } else {
+            $this->error("Database connection not lost");
+            throw new Exception("SQLError: Database connection lost");
+            return false;
+        }
     }
     public function createApplicantInDB(Applicant $applicant)
     {
+        $query = "INSERT INTO `applicants` (`id`, `firstName`, `lastName`, `studentIDNumber`, `student_email`, `password`, `role`, `created at`) VALUES (NULL, ?, ?, ?, ?, ?, ?, current_timestamp());";
+        if ($this->sqlDB !== null) {
+            $fn = $applicant->getFirstname();
+            $ln = $applicant->getLastname();
+            $id = $applicant->getStudentid();
+            $em = $applicant->getEmail();
+            $hashedpwd = $applicant->getHashedPassword();
+            $role = 2;
+            $stmt = $this->sqlDB->prepare($query);
+            $result = $stmt->execute(array($fn, $ln, $id, $em, $hashedpwd, $role));
+            if ($result === false) {
+                $this->error("Error executing query: " . $this->sqlDB->error);
+                throw new Exception("Error executing query: " . $this->sqlDB->error);
+                return false;
+            } else {
+                $this->info("Query executed successfully");
+                return true;
+            }
+        } else {
+            $this->error("Database connection not lost");
+            throw new Exception("SQLError: Database connection lost");
+            return false;
+        }
     }
     public function createJobPostInDB(JobPost $jobpost)
     {

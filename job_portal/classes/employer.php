@@ -25,15 +25,12 @@ class Employer{
     function hashPassword($password) {
         // Hash the password using bcrypt algorithm
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
-        
         if ($hashedPassword === false) {
             // Hashing failed
             throw new Exception('Password hashing failed');
         }
-        
         return $hashedPassword;
     }
-    
     public function getEmployerId() {
         return $this->employerid;
     }
