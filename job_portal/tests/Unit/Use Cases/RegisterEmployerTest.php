@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 final class RegisterEmployerTest extends TestCase
 {
-    public function testCanRegisterNewEmployer(): void
+    public function testCanRegisterNewEmployerWithValidDetails(): void
     {
         //create the instance of the employer
         $newEmployer = new Employer("", "Candy", "Bennett", "password", "password", "candy@gmail.com", "Candy Industries", "12345678");

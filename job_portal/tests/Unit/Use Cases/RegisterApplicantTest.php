@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 final class RegisterApplicantTest extends TestCase
 {
-    public function testCanRegisterNewApplicant(): void
+    public function testCanRegisterNewApplicantWithValidDetails(): void
     {
         //create the instance of the Applicant
         $newApplicant = new Applicant("", "2021154344", "John", "Doe", "john@example.com", "password123", "password123");        
@@ -37,6 +37,15 @@ final class RegisterApplicantTest extends TestCase
     {
         //create the instance of the Applicant
         $newApplicant = new Applicant("", "20239822", "John", "Doe", "john@example.com", "password", "password123");         
+        $controller = new APIController();
+        // Assert that an exception is thrown when trying to register the Applicant
+        $this->expectException(Exception::class);
+        $result = $controller->registerUser($newApplicant);
+    }
+    public function testCannotRegisterNewApplicantWithPasswordLength(): void
+    {
+        //create the instance of the Applicant
+        $newApplicant = new Applicant("", "20239822", "John", "Doe", "john@example.com", "pass", "pass");         
         $controller = new APIController();
         // Assert that an exception is thrown when trying to register the Applicant
         $this->expectException(Exception::class);

@@ -3,7 +3,7 @@
 class Model extends SQLHandler
 {
 
-    public function registerUserInDB($user)
+    protected function registerUserInDB($user)
     {
         if ($user instanceof Employer) {
             $result = $this->createEmployerInDB($user);
@@ -15,8 +15,9 @@ class Model extends SQLHandler
             throw new InvalidArgumentException("Cannot register user. Received invalid class type in ", __METHOD__);
         }
     }
-    public function createEmployerInDB(Employer $employer)
+    protected function createEmployerInDB(Employer $employer)
     {
+        $logger = new Logger();
         $query = "INSERT INTO `employer` (`id`, `firstName`, `lastName`, `password`, `companyEmail`, `phoneNumber`, `role`, `created at`) VALUES (NULL, ?, ?, ?, ?, ?,?, current_timestamp());";
         if ($this->sqlDB !== null) {
             $fn = $employer->getFirstname();
@@ -28,7 +29,7 @@ class Model extends SQLHandler
             $stmt = $this->sqlDB->prepare($query);
             $result = $stmt->execute(array($fn, $ln, $hashedpwd, $em, $pn, $role));
             if ($result === false) {
-                $this->error("Error executing query: " . $this->sqlDB->error);
+                $logger->error("Error executing query: " . $this->sqlDB->error);
                 throw new Exception("Error executing query: " . $this->sqlDB->error);
                 return false;
             } else {
@@ -36,13 +37,14 @@ class Model extends SQLHandler
                 return true;
             }
         } else {
-            $this->error("Database connection not lost");
+            $logger->error("Database connection not lost");
             throw new Exception("SQLError: Database connection lost");
             return false;
         }
     }
-    public function createApplicantInDB(Applicant $applicant)
+    protected function createApplicantInDB(Applicant $applicant)
     {
+        $logger = new Logger();
         $query = "INSERT INTO `applicants` (`id`, `firstName`, `lastName`, `studentIDNumber`, `student_email`, `password`, `role`, `created at`) VALUES (NULL, ?, ?, ?, ?, ?, ?, current_timestamp());";
         if ($this->sqlDB !== null) {
             $fn = $applicant->getFirstname();
@@ -54,7 +56,7 @@ class Model extends SQLHandler
             $stmt = $this->sqlDB->prepare($query);
             $result = $stmt->execute(array($fn, $ln, $id, $em, $hashedpwd, $role));
             if ($result === false) {
-                $this->error("Error executing query: " . $this->sqlDB->error);
+                $logger->error("Error executing query: " . $this->sqlDB->error);
                 throw new Exception("Error executing query: " . $this->sqlDB->error);
                 return false;
             } else {
@@ -62,30 +64,73 @@ class Model extends SQLHandler
                 return true;
             }
         } else {
-            $this->error("Database connection not lost");
+            $logger->error("Database connection not lost");
             throw new Exception("SQLError: Database connection lost");
             return false;
         }
     }
-    public function createJobPostInDB(JobPost $jobpost)
+    protected function createJobPostInDB(JobPost $jobpost)
     {
+        $logger = new Logger();
+        $logger->info("adding new post to database");
+        $title = $jobpost->getTitle();
+        $body = $jobpost->getBody();
+        $status = 0;
+        $query = "INSERT INTO `jobs` (`id`, `title`, `body`, `status`, `created_at`) VALUES (NULL, ?, ?, ?, current_timestamp());"; //returns the id of the newly added record
+        if ($this->sqlDB !== null) {
+            $stmt = $this->sqlDB->prepare($query);
+            $result = $stmt->execute(array($title, $body, $status));
+            if ($result === false) {
+                $logger->error("Error executing query: " . $this->sqlDB->error);
+                throw new Exception("Error executing query: " . $this->sqlDB->error);
+            } else {
+                $logger->info("new post added to database...returning id");
+                // Fetch the last inserted ID explicitly using insert_id property
+                $lastInsertedId = $this->sqlDB->insert_id;
+                $logger->info("last inserted record for post is $lastInsertedId");
+
+                return $lastInsertedId;
+            }
+        } else {
+            $logger->error("Database connection not lost");
+            throw new Exception("SQLError: Database connection lost");
+            return false;
+        }
     }
-    public function deleteApplicantFromDB(Employer $employer)
+    protected function deleteEmployerInDB($id)
     {
+        $logger = new Logger();
+        $query = "DELETE FROM `employer` WHERE `id` = ?;";
+        if ($this->sqlDB !== null) {
+            $stmt = $this->sqlDB->prepare($query);
+            $result = $stmt->execute(array($id));
+            if ($result === false) {
+                $logger->error("Error executing query: " . $this->sqlDB->error);
+                throw new Exception("Error executing query: " . $this->sqlDB->error);
+                return false;
+            } else {
+                $this->info("Employer with ID $id deleted successfully");
+                return true;
+            }
+        } else {
+            $logger->error("Database connection not established");
+            throw new Exception("SQLError: Database connection lost");
+            return false;
+        }
     }
-    public function getEmployersInDB()
+    protected function getEmployerInDB()
     {
         $employerList = new EmployerList();
         //get the values from the db and save them in the variable
         return $employerList;
     }
-    public function getPostedJobsListUsingCriteriainDB()
+    protected function getPostedJobsListUsingCriteriainDB()
     {
         $jobList = new JobList();
         //get the values from the db and save them in the variable
         return $jobList;
     }
-    public function createJobApplicationInDB(Applicant $applicant)
+    protected function createJobApplicationInDB(Applicant $applicant)
     {
     }
 }

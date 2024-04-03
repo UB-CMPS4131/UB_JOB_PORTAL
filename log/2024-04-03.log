@@ -1,0 +1,181 @@
+[2024-04-03 22:25:19][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:25:19][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:25:19][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:25:19][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:25:19][INFO] adding new post to database
+[2024-04-03 22:25:19][INFO] new post added to database...returning id
+[2024-04-03 22:25:19][INFO] last inserted record for post is 27
+[2024-04-03 22:25:19][INFO] retreived new job post id as 27 in APIController::newJobPost
+[2024-04-03 22:26:04][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:26:04][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:26:04][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:26:04][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:26:04][INFO] adding new post to database
+[2024-04-03 22:26:04][INFO] new post added to database...returning id
+[2024-04-03 22:26:04][INFO] last inserted record for post is 28
+[2024-04-03 22:26:04][INFO] retreived new job post id as 28 in APIController::newJobPost
+[2024-04-03 22:26:04][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:26:23][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:26:23][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:26:23][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:26:23][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:26:23][INFO] adding new post to database
+[2024-04-03 22:26:24][INFO] new post added to database...returning id
+[2024-04-03 22:26:24][INFO] last inserted record for post is 29
+[2024-04-03 22:26:24][INFO] retreived new job post id as 29 in APIController::newJobPost
+[2024-04-03 22:26:24][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:27:27][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:27:27][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:27:27][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:27:27][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:27:27][INFO] adding new post to database
+[2024-04-03 22:27:27][INFO] new post added to database...returning id
+[2024-04-03 22:27:27][INFO] last inserted record for post is 30
+[2024-04-03 22:27:27][INFO] retreived new job post id as 30 in APIController::newJobPost
+[2024-04-03 22:27:27][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:27:46][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:27:46][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:27:46][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:27:46][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:27:46][INFO] adding new post to database
+[2024-04-03 22:27:46][INFO] new post added to database...returning id
+[2024-04-03 22:27:46][INFO] last inserted record for post is 31
+[2024-04-03 22:27:46][INFO] retreived new job post id as 31 in APIController::newJobPost
+[2024-04-03 22:29:27][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:29:27][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:29:27][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:29:27][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:29:27][INFO] adding new post to database
+[2024-04-03 22:29:27][INFO] new post added to database...returning id
+[2024-04-03 22:29:27][INFO] last inserted record for post is 32
+[2024-04-03 22:29:27][INFO] retreived new job post id as 32 in APIController::newJobPost
+[2024-04-03 22:29:27][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:29:29][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:29:29][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:29:29][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:29:29][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:29:29][INFO] adding new post to database
+[2024-04-03 22:29:29][INFO] new post added to database...returning id
+[2024-04-03 22:29:29][INFO] last inserted record for post is 33
+[2024-04-03 22:29:29][INFO] retreived new job post id as 33 in APIController::newJobPost
+[2024-04-03 22:29:29][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:29:55][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:29:55][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:29:55][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:29:55][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:29:55][INFO] adding new post to database
+[2024-04-03 22:29:55][INFO] new post added to database...returning id
+[2024-04-03 22:29:55][INFO] last inserted record for post is 34
+[2024-04-03 22:29:55][INFO] retreived new job post id as 34 in APIController::newJobPost
+[2024-04-03 22:29:55][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:29:55][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:29:55][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:29:55][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:29:55][ERROR] Empty field job post title
+[2024-04-03 22:30:01][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:30:01][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:30:01][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:30:01][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:30:01][INFO] adding new post to database
+[2024-04-03 22:30:01][INFO] new post added to database...returning id
+[2024-04-03 22:30:01][INFO] last inserted record for post is 35
+[2024-04-03 22:30:01][INFO] retreived new job post id as 35 in APIController::newJobPost
+[2024-04-03 22:30:01][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:30:01][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:30:01][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:30:01][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:30:01][ERROR] Empty field job post title
+[2024-04-03 22:30:53][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:30:53][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:30:53][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:30:53][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:30:53][INFO] adding new post to database
+[2024-04-03 22:30:53][INFO] new post added to database...returning id
+[2024-04-03 22:30:53][INFO] last inserted record for post is 36
+[2024-04-03 22:30:53][INFO] retreived new job post id as 36 in APIController::newJobPost
+[2024-04-03 22:30:53][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:30:53][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:30:53][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:30:53][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:30:53][ERROR] Empty field job post title
+[2024-04-03 22:31:09][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:31:09][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:31:09][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:31:09][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:31:09][INFO] adding new post to database
+[2024-04-03 22:31:09][INFO] new post added to database...returning id
+[2024-04-03 22:31:09][INFO] last inserted record for post is 37
+[2024-04-03 22:31:09][INFO] retreived new job post id as 37 in APIController::newJobPost
+[2024-04-03 22:31:09][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:31:09][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:31:09][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:31:09][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:31:09][ERROR] Empty field job post title
+[2024-04-03 22:32:04][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:04][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:04][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:04][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:32:04][INFO] adding new post to database
+[2024-04-03 22:32:04][INFO] new post added to database...returning id
+[2024-04-03 22:32:04][INFO] last inserted record for post is 38
+[2024-04-03 22:32:04][INFO] retreived new job post id as 38 in APIController::newJobPost
+[2024-04-03 22:32:04][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:32:04][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:04][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:04][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:04][ERROR] Empty field job post title
+[2024-04-03 22:32:04][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:04][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:04][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:04][ERROR] Empty field job post body
+[2024-04-03 22:32:20][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:20][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:20][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:20][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:32:20][INFO] adding new post to database
+[2024-04-03 22:32:20][INFO] new post added to database...returning id
+[2024-04-03 22:32:20][INFO] last inserted record for post is 39
+[2024-04-03 22:32:20][INFO] retreived new job post id as 39 in APIController::newJobPost
+[2024-04-03 22:32:20][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:32:20][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:20][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:20][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:20][ERROR] Empty field job post title
+[2024-04-03 22:32:20][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:20][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:20][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:20][ERROR] Empty field job post body
+[2024-04-03 22:32:35][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:35][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:35][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:35][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:32:35][INFO] adding new post to database
+[2024-04-03 22:32:35][INFO] new post added to database...returning id
+[2024-04-03 22:32:35][INFO] last inserted record for post is 40
+[2024-04-03 22:32:35][INFO] retreived new job post id as 40 in APIController::newJobPost
+[2024-04-03 22:32:35][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:32:35][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:35][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:35][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:35][ERROR] Empty field job post title
+[2024-04-03 22:32:35][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:35][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:35][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:35][ERROR] Empty field job post body
+[2024-04-03 22:32:38][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:38][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:38][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:38][INFO] Job Post fields checked and is ok JobPostHandler::checkFields
+[2024-04-03 22:32:38][INFO] adding new post to database
+[2024-04-03 22:32:38][INFO] new post added to database...returning id
+[2024-04-03 22:32:38][INFO] last inserted record for post is 41
+[2024-04-03 22:32:38][INFO] retreived new job post id as 41 in APIController::newJobPost
+[2024-04-03 22:32:38][INFO] Post success: notifiier is (Job Post Created)
+[2024-04-03 22:32:38][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:38][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:38][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:38][ERROR] Empty field job post title
+[2024-04-03 22:32:38][INFO] SQLHandler::__construct database connected
+[2024-04-03 22:32:38][INFO] Creating a job postAPIController::newJobPost
+[2024-04-03 22:32:38][INFO] Checking job post fields in JobPostHandler::checkFields
+[2024-04-03 22:32:38][ERROR] Empty field job post body
