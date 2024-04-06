@@ -1,0 +1,81 @@
+[2024-04-06 05:32:16][ERROR] Error initializing database connection: No connection could be made because the target machine actively refused it
+[2024-04-06 05:32:16][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:32:16][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:32:16][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:32:16][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:32:16][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-06 05:32:16][INFO] Student Id is validRegistrationHandler::ensureIsValidStudentId
+[2024-04-06 05:32:16][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-06 05:32:16][INFO] Passwords match
+[2024-04-06 05:32:16][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-06 05:32:16][INFO] Field check successful
+[2024-04-06 05:32:16][ERROR] Database connection not lost
+[2024-04-06 05:32:22][ERROR] Error initializing database connection: No connection could be made because the target machine actively refused it
+[2024-04-06 05:32:22][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:32:22][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:32:22][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:32:22][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:32:24][ERROR] Error initializing database connection: No connection could be made because the target machine actively refused it
+[2024-04-06 05:32:24][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:32:24][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:32:24][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:32:24][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:32:27][ERROR] Error initializing database connection: No connection could be made because the target machine actively refused it
+[2024-04-06 05:32:27][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:32:27][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:32:27][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:32:27][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:32:27][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-06 05:32:29][ERROR] Error initializing database connection: No connection could be made because the target machine actively refused it
+[2024-04-06 05:32:29][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:32:29][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:32:29][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:32:29][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:32:29][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-06 05:32:31][ERROR] Error initializing database connection: No connection could be made because the target machine actively refused it
+[2024-04-06 05:32:31][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:32:31][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:32:31][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:32:31][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:32:31][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-06 05:33:24][INFO] SQLHandler::__construct database connected
+[2024-04-06 05:33:24][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:33:24][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:33:24][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:33:24][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:33:24][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-06 05:33:24][INFO] Student Id is validRegistrationHandler::ensureIsValidStudentId
+[2024-04-06 05:33:24][INFO] No Invalid characters in value stringsRegistrationHandler::containsInvalidCharacters
+[2024-04-06 05:33:24][INFO] Passwords match
+[2024-04-06 05:33:24][INFO] No Invalid string length on user registrationRegistrationHandler::checkForInvalidStringLengths
+[2024-04-06 05:33:24][INFO] Field check successful
+[2024-04-06 05:33:24][INFO] Query executed successfully
+[2024-04-06 05:33:24][INFO] register success: notifiier is (Applicant is registered)
+[2024-04-06 05:33:24][INFO] SQLHandler::__construct database connected
+[2024-04-06 05:33:24][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:33:24][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:33:24][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:33:24][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:33:24][INFO] SQLHandler::__construct database connected
+[2024-04-06 05:33:24][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:33:24][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:33:24][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:33:24][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:33:24][INFO] SQLHandler::__construct database connected
+[2024-04-06 05:33:24][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:33:24][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:33:24][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:33:24][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:33:24][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-06 05:33:24][INFO] SQLHandler::__construct database connected
+[2024-04-06 05:33:24][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:33:24][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:33:24][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:33:24][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:33:24][INFO] Email is validRegistrationHandler::ensureIsValidEmail
+[2024-04-06 05:33:24][INFO] SQLHandler::__construct database connected
+[2024-04-06 05:33:24][INFO] Registering a userAPIController::registerUser
+[2024-04-06 05:33:24][INFO] Registration Handler createdRegistrationHandler::__construct
+[2024-04-06 05:33:24][INFO] checking the input fieldsRegistrationHandler::checkFields
+[2024-04-06 05:33:24][INFO] No fields are emptyRegistrationHandler::checkEmptyFields
+[2024-04-06 05:33:24][INFO] Email is validRegistrationHandler::ensureIsValidEmail
