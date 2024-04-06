@@ -2,7 +2,10 @@
     "autoload": {
         "classmap": [
             "classes/",
-            "src"
+            "includes/",
+            "controller/",
+            "model/",
+            "src/"
         ]
     },
     "require-dev": {

@@ -39,21 +39,26 @@ class NotifierTest extends TestCase
         $this->assertEquals("Notification 2", $notifications[1]);
     }
 
-    public function testGetNotificationsFailure()
-    {
-        $notifier = new Notifier();
+    // public function testGetNotificationsFailure()
+    // {
+    //     $notifier = new Notifier();
 
-        $notification1 = 'Notification 1';
-        $notification2 = 'Notification 2';
+    //     $notification1 = 'Notification 1';
+    //     $notification2 = 'Notification 2';
 
-        $notifier->addNotification($notification1);
-        $notifier->addNotification($notification2);
+    //     $notifier->addNotification($notification1);
+    //     $notifier->addNotification($notification2);
 
-        // Intentionally set the wrong expected value
-        $expected = ['Incorrect Notification'];
+    //     // Intentionally set the wrong expected value
+    //     $expected = ['Incorrect Notification'];
 
-        // This assertion should fail because the returned notifications should not match the incorrect expected value
-        $this->assertEquals($expected, $notifier->getNotifications());
-    } 
+    //     // This assertion should fail because the returned notifications should not match the incorrect expected value
+    //     $this->assertEquals($expected, $notifier->getNotifications());
+    // } 
+
+
+
 
 }
+
+?>
