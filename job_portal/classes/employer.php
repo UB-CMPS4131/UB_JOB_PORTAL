@@ -1,28 +1,33 @@
-<?php 
+<?php
 
 
-class Employer{
+class Employer
+{
     private $employerid;
-    private $firstname;
-    private $lastname;
-    private $password;
-    private $hashedPassword;
-    private $repeatedPassword; 
-    private $companyEmail;
     private $companyName;
+    private $recruiter_firstname;
+    private $recruiter_lastname;
+    private $profile_picture;
+    private $email;
+    private $password;
     private $phoneNumber;
-    public function __construct($id, $firstname, $lastname, $password, $repeatedPassword, $companyEmail, $companyName, $phoneNumber) {
+    private $hashedPassword;
+    private $repeatedPassword;
+    private $companyEmail;
+    private $created_at;
+    public function __construct($id, $companyName, $recruiter_firstname, $recruiter_lastname, $email, $password, $repeatedPassword, $phoneNumber)
+    {
         $this->employerid = $id;
-        $this->firstname = $firstname;
-        $this->lastname = $lastname;
-        $this->password = $password;
-        $this->hashedPassword = $this->hashPassword($password);
-        $this->repeatedPassword = $repeatedPassword;
-        $this->companyEmail = $companyEmail;
         $this->companyName = $companyName;
+        $this->recruiter_firstname = $recruiter_firstname;
+        $this->recruiter_lastname = $recruiter_lastname;
+        $this->email = $email;
+        $this->password = $password;
+        $this->repeatedPassword = $repeatedPassword;
         $this->phoneNumber = $phoneNumber;
     }
-    function hashPassword($password) {
+    function hashPassword($password)
+    {
         // Hash the password using bcrypt algorithm
         $hashedPassword = password_hash($password, PASSWORD_DEFAULT);
         if ($hashedPassword === false) {
@@ -31,32 +36,41 @@ class Employer{
         }
         return $hashedPassword;
     }
-    public function getEmployerId() {
+
+    public function getEmployerid(){
         return $this->employerid;
     }
-    public function getFirstname() {
-        return $this->firstname;
-    }
-    public function getLastname() {
-        return $this->lastname;
-    }
-    public function getHashedPassword() {
-        return $this->hashedPassword;
-    }
-    public function getPassword() {
-        return $this->password;
-    }
-    public function getRepeatedPassword() {
-        return $this->repeatedPassword;
-    }
-    public function getCompanyEmail() {
-        return $this->companyEmail;
-    }
-    public function getCompanyName() {
+    public function getCompanyName(){
         return $this->companyName;
     }
-    public function getPhoneNumber() {
+    public function getRecruiter_firstname(){
+        return $this->recruiter_firstname;
+    }
+    public function getRecruiter_lastname(){
+        return $this->recruiter_lastname;
+    }
+    public function getProfile_picture(){
+        return $this->profile_picture;
+    }
+    public function getEmail(){
+        return $this->email;
+    }
+    public function getPassword(){
+        return $this->password;
+    }
+    public function getPhoneNumber(){
         return $this->phoneNumber;
     }
-
+    public function getHashedPassword(){
+        return $this->hashedPassword;
+    }
+    public function getRepeatedPassword(){
+        return $this->repeatedPassword;
+    }
+    public function getCompanyEmail(){
+        return $this->companyEmail;
+    }
+    public function getCreated_at(){
+        return $this->created_at;
+    }
 }

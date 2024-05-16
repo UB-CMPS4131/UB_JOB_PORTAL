@@ -8,7 +8,7 @@ class SQLHandler extends Logger{
     public $log;
 
     function __construct() {
-        
+        $this->log = New Logger();
         // Initialize the database connection
         try {
             $this->sqlDB = new mysqli(DBHOST, DBUSER, DBPWD, DBNAME);
